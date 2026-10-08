@@ -1,30 +1,3 @@
-<div align="center">
-
-<div>
-    <a href="https://play.google.com/store/apps/details?id=com.argsment.anywhere">
-        <img width="100" height="100" alt="Anywhere" src="https://storage.argsment.com/Anywhere-AppIcon-Android.png" />
-    </a>
-</div>
-
-# Anywhere for Android
-
-**The best native proxy client for Android.**
-
-A native, zero-dependency proxy client built entirely in Kotlin.
-No Electron. No WebView. No sing-box wrapper. Pure protocol implementation from the ground up.
-
-<div>
-    <a href="https://play.google.com/store/apps/details?id=com.argsment.anywhere">
-        <img width="128" src="https://storage.argsment.com/Get%20it%20on%20Google%20Play.png" />
-    </a>
-</div>
-
-</div>
-
----
-
-## Why Anywhere?
-
 Most Android proxy clients wrap sing-box or Xray-core in a Go/C++ bridge. Anywhere implements the protocol, transport, and routing layers directly in Kotlin, and calls into a small set of vendored C libraries (lwIP, ngtcp2, BLAKE3, libyaml) through JNI for the parts that benefit from native code. The result is a smaller binary, lower memory usage, and no Go runtime overhead.
 
 ## Features
@@ -79,11 +52,3 @@ cd Anywhere-Android
 ```
 
 Open the project in Android Studio, sync Gradle, select the `app` configuration, choose your device, and hit Run. A prebuilt APK is available at the download link above.
-
-## License
-
-Anywhere is licensed under the [GNU General Public License v3.0](LICENSE).
-
----
-
-If you find Anywhere useful, consider starring the repo. It helps others discover it.
